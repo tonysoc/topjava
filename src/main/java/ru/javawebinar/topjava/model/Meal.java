@@ -10,7 +10,7 @@ import java.time.LocalTime;
  * GKislin
  * 11.01.2015.
  */
-public class Meal extends BaseEntity {
+public class Meal extends AbstractBaseEntity {
     private LocalDateTime dateTime;
 
     private String description;
